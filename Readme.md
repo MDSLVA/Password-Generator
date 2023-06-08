@@ -6,6 +6,8 @@ This application allows a user to generate a random passord, with the length of 
 
 ![screenshot](./Assets/img1.png)
 ![screeshot](./Assets/img2.png)
+URL: https://mdslva.github.io/Password-Generator/
+
 
 ## Credits
 
