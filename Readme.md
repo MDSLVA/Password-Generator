@@ -4,7 +4,7 @@
 
 This application allows a user to generate a random passord, with the length of 8-128 characters. It also allows the user to customize the password with uppercase, lowercase, special and numerical characters.
 
-![screenshot](./assets/img1.png)
+![screenshot](./Assets/img1.png)
 ![screeshot](./Assets/img2.png)
 
 ## Credits
