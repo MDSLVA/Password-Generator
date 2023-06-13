@@ -11,6 +11,8 @@ var specialCharacters = ['@','%','+','\\','/',"'",'!','#','$','^','?',':',',',')
 
 // Write password to the #password input
 
+// This function is called when the button with the id "generate" is clicked.
+
 function writePassword() {
   var truePrompts = pagePrompts();
   var passwordText = document.querySelector("#password");
@@ -26,7 +28,7 @@ function writePassword() {
 
 
 }
-
+ //This function generates a password using the characters stored in the allCharacters array.
 function generatePassword () {
 
 var password = "";
@@ -37,6 +39,7 @@ return password;
 }
  
 
+// This function prompts the user for their preferences regarding password generation. It returns true to indicate that the prompts were successful.
 
 function pagePrompts (){
  
@@ -64,5 +67,5 @@ if (confirm ( "Do you want to include lowercase characters?"))
    
     return true
 }
-
+//When the button is clicked, it calls the writePassword function.
 generateBtn.addEventListener ("click", writePassword)
